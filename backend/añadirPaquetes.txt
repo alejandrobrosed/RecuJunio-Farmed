@@ -1,0 +1,4 @@
+dotnet nuget add source https://api.nuget.org/v3/index.json -n nuget.org
+dotnet add package Pomelo.EntityFrameworkCore.MySql --version 7.0.0
+
+dotnet add package BCrypt.Net-Next

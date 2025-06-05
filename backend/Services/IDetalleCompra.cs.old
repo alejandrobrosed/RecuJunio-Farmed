@@ -1,0 +1,9 @@
+using farmed.Models;
+
+public interface IDetalleCompraService
+{
+    Task<IEnumerable<DetalleCompra>> GetByCompraIdAsync(int compraId);
+    Task<DetalleCompra> CreateAsync(DetalleCompra detalle);
+
+    Task<DetalleCompra> CreateDetalleAsync(DetalleCompra detalleCompra);
+}
